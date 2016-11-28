@@ -12,14 +12,14 @@
 		C0981DD31BE13E9000D4367F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0981DD11BE13E9000D4367F /* Main.storyboard */; };
 		C0981DD51BE13E9000D4367F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0981DD41BE13E9000D4367F /* Assets.xcassets */; };
 		C0981DD81BE13E9000D4367F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0981DD61BE13E9000D4367F /* LaunchScreen.storyboard */; };
-		C0981DE61BE1414900D4367F /* DatePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0981DE01BE1414800D4367F /* DatePickerCell.xib */; settings = {ASSET_TAGS = (); }; };
-		C0981DE71BE1414900D4367F /* NormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0981DE11BE1414900D4367F /* NormalCell.xib */; settings = {ASSET_TAGS = (); }; };
-		C0981DE81BE1414900D4367F /* SliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0981DE21BE1414900D4367F /* SliderCell.xib */; settings = {ASSET_TAGS = (); }; };
-		C0981DE91BE1414900D4367F /* SwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0981DE31BE1414900D4367F /* SwitchCell.xib */; settings = {ASSET_TAGS = (); }; };
-		C0981DEA1BE1414900D4367F /* TextfieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0981DE41BE1414900D4367F /* TextfieldCell.xib */; settings = {ASSET_TAGS = (); }; };
-		C0981DEB1BE1414900D4367F /* ValuePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0981DE51BE1414900D4367F /* ValuePickerCell.xib */; settings = {ASSET_TAGS = (); }; };
-		C0981DED1BE141B800D4367F /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0981DEC1BE141B800D4367F /* CustomCell.swift */; settings = {ASSET_TAGS = (); }; };
-		C0981DF11BE1498600D4367F /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0981DF01BE1498600D4367F /* CellDescriptor.plist */; settings = {ASSET_TAGS = (); }; };
+		C0981DE61BE1414900D4367F /* DatePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0981DE01BE1414800D4367F /* DatePickerCell.xib */; };
+		C0981DE71BE1414900D4367F /* NormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0981DE11BE1414900D4367F /* NormalCell.xib */; };
+		C0981DE81BE1414900D4367F /* SliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0981DE21BE1414900D4367F /* SliderCell.xib */; };
+		C0981DE91BE1414900D4367F /* SwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0981DE31BE1414900D4367F /* SwitchCell.xib */; };
+		C0981DEA1BE1414900D4367F /* TextfieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0981DE41BE1414900D4367F /* TextfieldCell.xib */; };
+		C0981DEB1BE1414900D4367F /* ValuePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0981DE51BE1414900D4367F /* ValuePickerCell.xib */; };
+		C0981DED1BE141B800D4367F /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0981DEC1BE141B800D4367F /* CustomCell.swift */; };
+		C0981DF11BE1498600D4367F /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0981DF01BE1498600D4367F /* CellDescriptor.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -127,6 +127,7 @@
 				TargetAttributes = {
 					C0981DC91BE13E9000D4367F = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -290,6 +291,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.Expandable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -301,6 +303,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.Expandable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
